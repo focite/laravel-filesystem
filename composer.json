@@ -1,0 +1,21 @@
+{
+    "name": "laractl/filesystem",
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^8.1",
+        "aliyuncs/oss-sdk-php": "^2.6",
+        "qcloud/cos-sdk-v5": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laractl\\Filesystem\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laractl\\Filesystem\\FilesystemServiceProvider"
+            ]
+        }
+    }
+}
