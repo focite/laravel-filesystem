@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Laractl\Filesystem;
+namespace Focite\Filesystem;
 
 use Illuminate\Support\ServiceProvider;
 

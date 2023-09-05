@@ -1,5 +1,5 @@
 {
-    "name": "laractl/filesystem",
+    "name": "focite/laravel-filesystem",
     "license": "Apache-2.0",
     "require": {
         "php": "^8.1",
@@ -8,13 +8,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Laractl\\Filesystem\\": "src/"
+            "Focite\\Filesystem\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laractl\\Filesystem\\FilesystemServiceProvider"
+                "Focite\\Filesystem\\FilesystemServiceProvider"
             ]
         }
     }
