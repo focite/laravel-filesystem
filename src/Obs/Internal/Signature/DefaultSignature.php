@@ -1,11 +1,10 @@
 <?php
 
-namespace Obs\Internal\Signature;
+namespace Focite\Filesystem\Obs\Internal\Signature;
 
-
-use Obs\Internal\Resource\Constants;
-use Obs\Internal\Common\Model;
-use Obs\Internal\Resource\V2Constants;
+use Focite\Filesystem\Obs\Internal\Resource\Constants;
+use Focite\Filesystem\Obs\Internal\Common\Model;
+use Focite\Filesystem\Obs\Internal\Resource\V2Constants;
 
 class DefaultSignature extends AbstractSignature
 {

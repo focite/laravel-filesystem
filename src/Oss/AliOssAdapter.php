@@ -1,19 +1,13 @@
 <?php
-/**
- * Created by jacob.
- * Date: 2016/5/19 0019
- * Time: 下午 17:07
- */
 
-namespace Jacobcyl\AliOSS;
+namespace Focite\Filesystem\Oss;
 
-use Dingo\Api\Contract\Transformer\Adapter;
 use League\Flysystem\Adapter\AbstractAdapter;
 use League\Flysystem\AdapterInterface;
 use League\Flysystem\Config;
 use League\Flysystem\Util;
-use OSS\Core\OssException;
-use OSS\OssClient;
+use Focite\Filesystem\Oss\Core\OssException;
+use Focite\Filesystem\Oss\OssClient;
 use Log;
 
 class AliOssAdapter extends AbstractAdapter

@@ -1,6 +1,6 @@
 <?php
 
-namespace Obs;
+namespace Focite\Filesystem\Obs;
 
 use Monolog\Logger;
 use GuzzleHttp\Client;
@@ -10,10 +10,10 @@ use GuzzleHttp\Handler\CurlMultiHandler;
 use GuzzleHttp\Handler\Proxy;
 use GuzzleHttp\Promise\Promise;
 use Illuminate\Support\Facades\Log;
-use Obs\Internal\Resource\Constants;
-use Obs\Internal\Common\SdkCurlFactory;
-use Obs\Internal\Common\SdkStreamHandler;
-use Obs\Internal\Common\Model;
+use Focite\Filesystem\Obs\Internal\Resource\Constants;
+use Focite\Filesystem\Obs\Internal\Common\SdkCurlFactory;
+use Focite\Filesystem\Obs\Internal\Common\SdkStreamHandler;
+use Focite\Filesystem\Obs\Internal\Common\Model;
 
 define('DEBUG', Logger::DEBUG);
 define('INFO', Logger::INFO);

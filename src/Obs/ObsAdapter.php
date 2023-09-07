@@ -1,6 +1,6 @@
 <?php
 
-namespace Obs;
+namespace Focite\Filesystem\Obs;
 
 use League\Flysystem\Adapter\AbstractAdapter;
 use League\Flysystem\Adapter\Polyfill\NotSupportingVisibilityTrait;

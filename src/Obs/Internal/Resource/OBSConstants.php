@@ -1,5 +1,6 @@
 <?php
-namespace Obs\Internal\Resource;
+
+namespace Focite\Filesystem\Obs\Internal\Resource;
 
 class OBSConstants extends Constants {
     const FLAG = 'OBS';

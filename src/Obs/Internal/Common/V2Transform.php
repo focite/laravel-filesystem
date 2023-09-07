@@ -1,8 +1,9 @@
 <?php
-namespace Obs\Internal\Common;
 
-use Obs\ObsClient;
-use Obs\Internal\Resource\V2Constants;
+namespace Focite\Filesystem\Obs\Internal\Common;
+
+use Focite\Filesystem\Obs\ObsClient;
+use Focite\Filesystem\Obs\Internal\Resource\V2Constants;
 
 class V2Transform implements ITransform{
     private static $instance;

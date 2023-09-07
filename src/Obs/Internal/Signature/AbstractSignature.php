@@ -1,15 +1,15 @@
 <?php
 
-namespace Obs\Internal\Signature;
+namespace Focite\Filesystem\Obs\Internal\Signature;
 
 use Illuminate\Support\Facades\Log;
 use GuzzleHttp\Psr7\Stream;
-use Obs\Internal\Resource\Constants;
-use Obs\ObsException;
-use Obs\Internal\Common\SchemaFormatter;
-use Obs\Internal\Common\Model;
-use Obs\Internal\Common\ObsTransform;
-use Obs\Internal\Common\V2Transform;
+use Focite\Filesystem\Obs\Internal\Resource\Constants;
+use Focite\Filesystem\Obs\ObsException;
+use Focite\Filesystem\Obs\Internal\Common\SchemaFormatter;
+use Focite\Filesystem\Obs\Internal\Common\Model;
+use Focite\Filesystem\Obs\Internal\Common\ObsTransform;
+use Focite\Filesystem\Obs\Internal\Common\V2Transform;
 use Psr\Http\Message\StreamInterface;
 
 abstract class AbstractSignature implements SignatureInterface

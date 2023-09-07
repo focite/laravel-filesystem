@@ -1,6 +1,6 @@
 <?php
 
-namespace Obs\Internal\Common;
+namespace Focite\Filesystem\Obs\Internal\Common;
 
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Exception\ConnectException;

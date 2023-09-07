@@ -1,8 +1,8 @@
 <?php
 
-namespace Obs\Internal\Signature;
+namespace Focite\Filesystem\Obs\Internal\Signature;
 
-use Obs\Internal\Common\Model;
+use Focite\Filesystem\Obs\Internal\Common\Model;
 
 class V4Signature extends AbstractSignature
 {

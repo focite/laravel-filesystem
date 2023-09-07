@@ -1,5 +1,6 @@
 <?php
-namespace Obs\Internal\Resource;
+
+namespace Focite\Filesystem\Obs\Internal\Resource;
 
 class V2Constants extends Constants {
     const FLAG = 'AWS';

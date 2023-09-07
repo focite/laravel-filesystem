@@ -1,9 +1,9 @@
 <?php
-namespace Obs\Internal\Common;
+namespace Focite\Filesystem\Obs\Internal\Common;
 
 use Psr\Http\Message\StreamInterface;
 use GuzzleHttp\Psr7\StreamDecoratorTrait;
-use Obs\ObsException;
+use Focite\Filesystem\Obs\ObsException;
 
 class CheckoutStream implements StreamInterface {
     use StreamDecoratorTrait;

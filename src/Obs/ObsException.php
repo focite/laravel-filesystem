@@ -1,6 +1,6 @@
 <?php
 
-namespace Obs;
+namespace Focite\Filesystem\Obs;
 
 use Illuminate\Support\Facades\Log;
 use GuzzleHttp\Psr7\Request;

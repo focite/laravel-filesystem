@@ -1,6 +1,6 @@
 <?php
 
-namespace Dscmall\Flysystem\Cos;
+namespace Focite\Filesystem\Cos;
 
 use GuzzleHttp\Client as HttpClient;
 use League\Flysystem\Adapter\AbstractAdapter;

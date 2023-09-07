@@ -1,7 +1,6 @@
 <?php
 
-namespace Obs\Internal\Common;
-
+namespace Focite\Filesystem\Obs\Internal\Common;
 
 /**
  * JSON Schema formatter class

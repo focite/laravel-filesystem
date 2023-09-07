@@ -1,6 +1,6 @@
 <?php
 
-namespace Obs\Internal\Resource;
+namespace Focite\Filesystem\Obs\Internal\Resource;
 
 class Constants {
     const ALLOWED_RESOURCE_PARAMTER_NAMES = [ 

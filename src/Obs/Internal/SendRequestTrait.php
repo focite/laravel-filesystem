@@ -1,6 +1,6 @@
 <?php
 
-namespace Obs\Internal;
+namespace Focite\Filesystem\Obs\Internal;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7;
@@ -9,14 +9,14 @@ use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Exception\ConnectException;
 use Illuminate\Support\Facades\Log;
-use Obs\Internal\Common\Model;
-use Obs\Internal\Resource\V2Constants;
-use Obs\ObsException;
-use Obs\Internal\Signature\V4Signature;
-use Obs\Internal\Signature\DefaultSignature;
-use Obs\Internal\Resource\Constants;
-use Obs\Internal\Resource\V2RequestResource;
-use Psr\Http\Message\StreamInterface;
+use Focite\Filesystem\Obs\Internal\Common\Model;
+use Focite\Filesystem\Obs\Internal\Resource\V2Constants;
+use Focite\Filesystem\Obs\ObsException;
+use Focite\Filesystem\Obs\Internal\Signature\V4Signature;
+use Focite\Filesystem\Obs\Internal\Signature\DefaultSignature;
+use Focite\Filesystem\Obs\Internal\Resource\Constants;
+use Focite\Filesystem\Obs\Internal\Resource\V2RequestResource;
+use Focite\Filesystem\Obs\Http\Message\StreamInterface;
 
 trait SendRequestTrait
 {

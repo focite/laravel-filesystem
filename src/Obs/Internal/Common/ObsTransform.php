@@ -1,7 +1,8 @@
 <?php
-namespace Obs\Internal\Common;
 
-use Obs\ObsClient;
+namespace Focite\Filesystem\Obs\Internal\Common;
+
+use Focite\Filesystem\Obs\ObsClient;
 
 class ObsTransform implements ITransform {
     private static $instance;

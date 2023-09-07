@@ -1,6 +1,6 @@
 <?php
 
-namespace Obs\Internal\Common;
+namespace Focite\Filesystem\Obs\Internal\Common;
 
 class Model implements \ArrayAccess, \IteratorAggregate, \Countable, ToArrayInterface
 {

@@ -1,5 +1,6 @@
 <?php
-namespace Obs\Internal\Common;
+
+namespace Focite\Filesystem\Obs\Internal\Common;
 
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\LazyOpenStream;

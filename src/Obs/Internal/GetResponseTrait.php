@@ -1,15 +1,15 @@
 <?php
 
-namespace Obs\Internal;
+namespace Focite\Filesystem\Obs\Internal;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\RequestException;
 use Illuminate\Support\Facades\Log;
-use Obs\ObsException;
-use Obs\Internal\Common\Model;
-use Obs\Internal\Resource\Constants;
-use Obs\Internal\Common\CheckoutStream;
+use Focite\Filesystem\Obs\ObsException;
+use Focite\Filesystem\Obs\Internal\Common\Model;
+use Focite\Filesystem\Obs\Internal\Resource\Constants;
+use Focite\Filesystem\Obs\Internal\Common\CheckoutStream;
 use Psr\Http\Message\StreamInterface;
 
 trait GetResponseTrait
